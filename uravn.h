@@ -1,0 +1,1 @@
+void resh(double a, double b, double c);
