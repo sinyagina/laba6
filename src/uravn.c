@@ -21,12 +21,3 @@ void resh(double a, double b, double c)
 		printf("koren: %lf %lf", x1, x2);
 	}
 }
-
-int main()
-{
-	double a, b, c;
-	printf("vvedite a b c: \n");
-	scanf("%lf %lf %lf", &a, &b, &c);
-	resh(a, b, c);
-	return 0;
-}
