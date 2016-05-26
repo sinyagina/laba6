@@ -4,6 +4,12 @@
 int resh(double a, double b, double c, double *d, double *x1, double *x2)
 {
 	*d = b * b - 4 * a * c;
+	if (a == 0)
+	{
+		printf("koefficient A dolzhen byt ne raven 0.\n");
+		return -1;
+	}
+
 	if (*d < 0)
 	{
 		printf("net kornei");
