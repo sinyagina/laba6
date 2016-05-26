@@ -1,9 +1,8 @@
 #include <stdio.h>
 #include <math.h>
 
-void resh(double a, double b, double c)
+void resh(double a, double b, double c, double *d, double *x1, double *x2)
 {
-	double d, x1, x2;
 	d = b * b - 4 * a * c;
 	if (d < 0)
 	{
