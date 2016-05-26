@@ -10,6 +10,8 @@ int resh(double a, double b, double c, double *d, double *x1, double *x2)
 		return -1;
 	}
 
+	printf("discriminant: %lf\n", *d);
+
 	if (*d < 0)
 	{
 		printf("net kornei");
