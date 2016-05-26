@@ -18,6 +18,9 @@ obj/ctest.o: test/ctest.c
 obj/test.o: test/test.c
 	gcc -c test/test.c -o obj/test.o -Ithirdparty -Isrc
 
+test: bin/test
+	bin/test
+
 prepare: bin obj
 
 bin:
